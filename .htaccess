@@ -1,0 +1,16 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^everyonefits\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everyonefits\.com$
+RewriteRule ^/?$ "http\:\/\/www\.squarepegfoundation\.org" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^everyonefits\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.everyonefits\.net$
+RewriteRule ^(.*)$ "http\:\/\/www\.squarepegfoundation\.org\/$1" [R=302,L]
+
+<ifModule mod_deflate.c>
+    <filesMatch "\.(js|css|html|php)$">
+        SetOutputFilter DEFLATE
+    </filesMatch>
+</ifModule>
