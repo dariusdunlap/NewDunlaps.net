@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8" />
 <title>The Dunlaps</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Bootstrap -->
@@ -28,7 +29,14 @@
     <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">At Home</a></li>
-            <li><a href="index.html">Joell</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Joell <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="https://www.facebook.com/msdunlap" rel='me'>Facebook</a></li>
+                    <li><a href="https://twitter.com/squarepegranch" rel='me'>Twitter</a></li>
+                    <li><a href="https://plus.google.com/100378597729135882948" rel='me'>Google+</a></li>
+                    <li><a href="http://www.linkedin.com/pub/joell-dunlap/0/66a/757" rel='me'>LinkedIn</a></li>
+                </ul>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Darius <b class="caret"></b></a>
                 <ul class="dropdown-menu">
@@ -48,7 +56,6 @@
                     <li><a href="http://www.linkedin.com">LinkedIn</a></li>
                 </ul>
  <!-->               
-            </li>
         </ul>
     </div>    
 </nav>
@@ -62,7 +69,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="images/carousel-joell.jpg">
+            <img src="images/carousel-joell.jpg" alt="Joell at the Beach">
             <div class="container active">
                 <div class="carousel-caption">
                     <h1>Joell</h1>
@@ -72,7 +79,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/carousel-darius.jpg">
+            <img src="images/carousel-darius.jpg" alt="Favorite Cissy Hound">
             <div class="container active">
                 <div class="carousel-caption">
                     <h1>Darius</h1>
@@ -82,7 +89,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/carousel-squarepegs.jpg">
+            <img src="images/carousel-squarepegs.jpg" alt="Kids and Horses">
             <div class="container active">
                 <div class="carousel-caption">
                     <h1>Square Peg Foundation</h1>
@@ -92,7 +99,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="images/carousel-innovation.jpg">
+            <img src="images/carousel-innovation.jpg" alt="Product Innovation Workshop">
             <div class="container active">
                 <div class="carousel-caption">
                     <h1>Human Innovation</h1>
@@ -114,26 +121,26 @@
     </div>
     <div class="row">
         <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/BooksJoell-sq-200.jpeg">
+            <img class="img-circle img-responsive" src="images/BooksJoell-sq-200.jpeg" alt="Joell with Books">
             <h3>Writing</h3>
             <p>Joell and Darius each write and speak on a wide range of topics...</p>
             <p><a class="btn btn-default" href="#">Check Back Soon! &raquo;</a></p>
         </div>
         <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/JoellSpeaking-sq-200.jpeg">
+            <img class="img-circle img-responsive" src="images/JoellSpeaking-sq-200.jpeg" alt="Joell Speaking">
             <h3>Square Peg Foundation</h3>
             <p>Square Pegs is a labour of love for us. For over a decade we've been doing this work, and we are thinkful to everyone who has helped make it all possible.</p>
             <p><a class="btn btn-default" href="http://squarepegfoundation.org/blog">Learn More &raquo;</a></p>
         </div>
         <div class="clearfix hidden-md hidden-lg"></div>
         <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/SnackBeforePhotowalk.jpg">
+            <img class="img-circle img-responsive" src="images/SnackBeforePhotowalk.jpg" alt="Hot Wings at The Chieftain">
             <h3>Good Food</h3>
             <p>We love to cook and we love to eat. Find out more about our adventures gathering the ingredients and putting it all together.</p>
             <p><a class="btn btn-default" href="http://feedthegirl.com">FeedTheGirl.com &raquo;</a></p>
         </div>
         <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/CandleLight-sq-200.jpeg">
+            <img class="img-circle img-responsive" src="images/CandleLight-sq-200.jpeg" alt="Candle Flame">
             <h3>Tech Matters</h3>
             <p>Darius is especially interested in how technology connects people and helps them be creative. But sometimes he just Geeks Out...</p>
             <p><a class="btn btn-default" href="http://dunlaps.net/darius">Read More! &raquo;</a></p>
@@ -146,16 +153,16 @@
         <div class="row">
             <footer>
                 <div class="pull-left ft_space">
-                    <address>
                     <h3>Darius and Joell Dunlap</h3>
+                    <address>
                     PO Box 473<br>
                     Pescadero, CA 94060<br>
-                    <a href="mailto: darius@dunlaps.net">darius@dunlaps.net</a><br>
+                    <a href="mailto:darius@dunlaps.net">darius@dunlaps.net</a><br>
                     <abbr title="Phone">P:</abbr>+1 650-860-5155
                     </address>
                 </div>
                 <div class="pull-right ft_space">
-                    <img class="img-responsive" src="images/DandJ2011.jpg">
+                    <img class="img-responsive" src="images/DandJ2011.jpg" alt="Darius and Joell, Thanksgiving 2012">
                     <p>&copy; Darius & Joell Dunlap, 2013</p>
                 </div>
             </footer>
@@ -179,7 +186,7 @@ $(function (){
 })    
     
 </script>
-</body>
+
 <!-- Google Analytics for dunlaps.net  -->
 <script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -191,5 +198,6 @@ var pageTracker = _gat._getTracker("UA-9012897-1");
 pageTracker._trackPageview();
 } catch(err) {}</script>
 <!-- End Google Analytics for dunlaps.net  -->
+</body>
 </html>
 
