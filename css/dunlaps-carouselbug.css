@@ -89,10 +89,10 @@ hr {
 
 @media(min-width: 768px){
 .carousel-inner > .item{
-    height: 550px;   
+    height: 700px;   
 }
 .map {
-    height: 550px;
+    height: 500px;
 }
     
 }

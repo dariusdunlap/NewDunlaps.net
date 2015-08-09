@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/dariusdunlap
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dunlaps.net
+  * I am dariusdunlap (https://keybase.io/dariusdunlap) on keybase.
+  * I have a public key with fingerprint DABC 9F8A 0A36 3724 E6E5  C27A 5B27 CB58 E692 8AAD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "dabc9f8a0a363724e6e5c27a5b27cb58e6928aad",
+            "host": "keybase.io",
+            "key_id": "5b27cb58e6928aad",
+            "kid": "01010ea3bfe2df942ce0eb491bf8ca1a2a87b72cac8d2886da6a97e0fde668edd23a0a",
+            "uid": "1da63baf255afe41dc54e70f32acef00",
+            "username": "dariusdunlap"
+        },
+        "revoke": {
+            "sig_ids": [
+                "2112a27a486adfeb5a4a0296ffe100086726c4a558d92275069da0dbc90b20d50f"
+            ]
+        },
+        "service": {
+            "hostname": "dunlaps.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1426479637,
+    "expire_in": 157680000,
+    "prev": "30d7a25561eff6425d61237f564f3cf32485c7524b8e0ec895a69dc6377558ec",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMN5AnicbVJ/UFRVGF0gqDCB6IdDNAUPECiU9+6+nysyosGkw1KkJYkb3Pfefcsb
+YHfZfbsKQjGVSpmKzjAyIOAISA45YCKYIYKLDAnKOA0GNg3kEOUEZTuLlaPZ3Z38
+r7l/3Ln3O/d855zvDi8P0oUG5CeO5c0f/vRUwNjQMafu7ZBtz+0iRKtcThh2EcXI
+vymqxYzsNrtq0QgDIUNREhQeklDP6jlAIxYxEuAgIwJOEhkesQLgIZSJFKLI6vC9
+wDQidKDVqhXf4UOBKuPb/8EX+wskhReCelFBQFYEGkiIRCItUKLCS5CCAPKcyAEJ
+SrwMeJ6VIQsFDpGKjFiWR7IM9FgcpnP66Shc14tQAQwDFURTssTQiCMVPYASUkjS
+B3QguwWWIr87u+p0yE5LCbQRVSmEHbmsxciXgkM1Y+EOwpBPAIoCEFumeRbKChIZ
+SEMSCKyiIIokSZ7lACvRkGF4WQCAY0hWkCEp49xIEZAyQyqECXPjri5V8pP7knqk
+wN/bsdqCNCzNZrdqVslaggtFmmZzGHyitHKbD7kDiQX/cRSIqkXGY8IvXMjuUK0W
+wkBhpKSpPlKKBizNCXheKQTaaVPtqED1IRiO5bFg0tcHuTClnpQ5iJNiKaQoLA0Y
+maWAnlMYllb0Es6M5hmJYwAt8ngoEi8wEHuTMDGH3SKJ8Lkqs1gJA+6kQTOmxLlZ
+oOa0I6Lq0tD2x3QBobqQ4EDfR9OFPhnx6PuZU8MfvmUun/vL3q9+lfL3Su1ltXso
+VdA9jE8/8kNgXu7+lDXe1KeIrMKEeVWYOdgzs9DeEKXULro3Dy51ZU5uNOkIS0au
+pIZE/xia7PkkIjGvHHaVHD86UJcx8VHiM67+6d4j8Y7AyfE9KwypA+dODs7/dvez
+zabj5gR31QLsDLzdvCEnd2TREH7WXXMtPrs1Tkkuem+0sPBAbGbptYis+eaGtSEx
+PQ8aOieGl3Zngn/q4nZPPZ2UtSp9buXIEMoc+f2iOGkMLm7fNwUiV9zt69geOvpL
+W+SBQy+C4k1Z1XUv9M2eCft+oWPDz+cqX/0ySWi8fP5k2Bu3N57+diQqgWc99wPX
+f37q/ci0hv6OhBLHFuN48K+er3/qalzbUtNRUf9sU9DNdeG3FtLCT7TqovpGFrM7
+V41273WYsxZnq7vGk7w76lv72u4UuPMq9l+oF9p1Uaar4Oi+uIx3X8uOFZaZWFci
+M+15Zbn8+If9ibVzN4ubpKvR6QfBppYT98Jqlu0teefKvVvTzqUbZybQx2WmCa9m
+XDP75/XqJ17q9kZVlJ43fmMdq3z+A9Nh4lBN4paeac3ZZlPUmPo/tl7Iz/GE53jb
+Kq/fX19/I3Zq4PUrpX0hb7pP9wbtbJwxNqefTVsY+uLS0Lqy+jZvb7Lpu60X0+64
+LYNLw7UxnmMzQNvWFf2gxdi0J4nsuPwv4rbH6w==
+=SVu5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dariusdunlap
+
+==================================================================
